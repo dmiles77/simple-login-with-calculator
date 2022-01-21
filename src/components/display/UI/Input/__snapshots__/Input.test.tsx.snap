@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Component (not testing the input fields) should render an Input component without errors 1`] = `
+<div
+  className="InputStyles"
+>
+  <label>
+    abc
+  </label>
+  <input
+    data-test="input-test"
+    label="abc"
+    onChange={[Function]}
+    placeholder="abc"
+    type="text"
+    value="abc"
+  />
+</div>
+`;
+
+exports[`Input component Type: input="text" test should render the component without errors 1`] = `
+<div
+  className="InputStyles"
+>
+  <label>
+    abc
+  </label>
+  <input
+    data-test="input-test"
+    label="abc"
+    onChange={[Function]}
+    placeholder="abc"
+    type="input"
+    value="abc"
+  />
+</div>
+`;

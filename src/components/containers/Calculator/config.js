@@ -1,0 +1,20 @@
+export const arrayOfCalcButtons = [
+    {btnKey: 'AC', extraStyles: 'reset'},
+    {btnKey: 'C', extraStyles: 'delete'},
+    {btnKey: 'x', extraStyles: 'operator'},
+    {btnKey: '/', extraStyles: 'operator'},
+    {btnKey: '7', extraStyles: ''},
+    {btnKey: '8', extraStyles: ''},
+    {btnKey: '9', extraStyles: ''},
+    {btnKey: '+', extraStyles: 'operator'},
+    {btnKey: '4', extraStyles: ''},
+    {btnKey: '5', extraStyles: ''},
+    {btnKey: '6', extraStyles: ''},
+    {btnKey: '-', extraStyles: 'operator'},
+    {btnKey: '1', extraStyles: ''},
+    {btnKey: '2', extraStyles: ''},
+    {btnKey: '3', extraStyles: ''},
+    {btnKey: '0', extraStyles: 'zero'},
+    {btnKey: '.', extraStyles: ''},
+    {btnKey: '=', extraStyles: 'eq'}
+];
