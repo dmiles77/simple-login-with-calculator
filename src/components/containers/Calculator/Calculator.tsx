@@ -86,7 +86,7 @@ export const Calculator: React.FC<IProps> = ({
 				operatorHandle(key);
 				break;
 			case 'x':
-				operatorHandle(key);
+				operatorHandle('*');
 				break;
 			case '=':
 				calcResult(key);
